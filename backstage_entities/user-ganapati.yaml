@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ganapati
+spec:
+  profile:
+    displayName: Ganapati
+    email: ganapati.bhat@kyndryl.com
+  memberOf:
+    - group:platform-team
+
