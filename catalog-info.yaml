@@ -1,0 +1,17 @@
+yaml
+CopyEdit
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ganapati-micro
+  description: A Flask microservice with CI/CD and observability
+  annotations:
+    github.com/project-slug: ganapatibhat123/myrepo
+    backstage.io/techdocs-ref: dir:.
+    prometheus.io/scrape: "true"
+    loki.io/logs: "true"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-team
+
