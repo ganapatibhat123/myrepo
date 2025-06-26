@@ -8,7 +8,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     prometheus.io/scrape: "true"
     loki.io/logs: "true"
-    grafana/dashboard-url: http://35.171.25.70:3001/d/38cd88b6-c473-47a8-8273-9683361b4abd/total-request?orgId=1&from=now-5m&to=now&timezone=browser&viewPanel=panel-1
+    grafana/dashboard-url: http://35.171.25.70:3001/d/38cd88b6-c473-47a8-8273-9683361b4abd/total-request
+    grafana/dashboard-selector: my_http_request
 spec:
   type: service
   lifecycle: experimental
